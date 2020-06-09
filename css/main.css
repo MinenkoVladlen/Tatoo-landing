@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #1D1C21;
+}
+
+.container {
+    max-width: 1134px;
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #F6F6F6;
+}
+
+.a_red {
+    color: #FF0E0E;
+}
+
+header {
+    background-image: linear-gradient(269.85deg, rgba(35, 32, 32, 0.9) 21.28%, rgba(58, 58, 58, 0.27) 96.11%), url('../img/header_backgmgfgnfgn.png');
+    background-repeat: no-repeat;
+    padding-bottom: 105px;
+    background-size: cover;
+}
+
+.header_nav {
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #89898B;
+}
+
+.header_nav a {
+    padding: 10px 0;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20.75px;
+}
+
+.header_section_logo {
+    position: relative;
+}
+
+.header_section_logo img {
+    position: absolute;
+    left: -20px;
+    top: -10.75px;
+}
+
+.header_section_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_section_social a {
+    padding-bottom: 21px;
+}
+
+.header_contact {
+    text-align: center;
+    color: #fff;
+}
+
+.header_contact h2 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.header_contact_button {
+    display: flex;
+    color: #D8D8D9;
+    border: 2px solid;
+    margin: auto;
+    width: 180px;
+    margin-top: 58px;
+    cursor: pointer;
+}
+
+.header_contact_button p {
+    padding: 15px 12px 14px 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.header_contact_button p:nth-child(2) {
+    padding: 4px 26px 4px 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.artists {
+    padding-top: 80px;
+}
+
+.artist_block {
+    display: flex;
+    justify-content: space-between;
+    color: #F6F6F6;
+    padding-top: 24px;
+}
+
+.artists h2 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 81px;
+    color: #89898B;
+}
+
+.artist_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.artist h3 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.arist_more {
+    display: flex;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+
+.arist_more img {
+    padding-left: 7.27px;
+}
