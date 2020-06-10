@@ -14,6 +14,25 @@ body {
     margin: auto;
 }
 
+h2 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 81px;
+    color: #89898B;
+}
+
+h3 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
 a {
     text-decoration: none;
     font-family: Raleway;
@@ -25,8 +44,25 @@ a {
     color: #F6F6F6;
 }
 
-.a_red {
+.color_red {
     color: #FF0E0E;
+}
+
+.btn_more {
+    display: flex;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+
+.btn_more img {
+    padding-left: 7.27px;
+    width: 11.45px;
+    height: 11.45px;
 }
 
 header {
@@ -77,7 +113,7 @@ header {
     color: #fff;
 }
 
-.header_contact h2 {
+.header_contact p {
     font-family: Playfair Display SC;
     font-style: normal;
     font-weight: 900;
@@ -120,6 +156,7 @@ header {
 
 .artists {
     padding-top: 80px;
+    padding-bottom: 130px;
 }
 
 .artist_block {
@@ -129,42 +166,85 @@ header {
     padding-top: 24px;
 }
 
-.artists h2 {
-    font-family: Playfair Display SC;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 61px;
-    line-height: 81px;
-    color: #89898B;
-}
-
 .artist_info {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.artist h3 {
-    font-family: Playfair Display SC;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
+.award_main {
+    background: url("../img/avard_back.png"), no-repeat;
+    background-size: cover;
+    background-color: #C4C4C4;
 }
 
-.arist_more {
+.awards {
     display: flex;
+    justify-content: space-between;
+    padding: 155px 0 149px;
+}
+
+.award {
+    display: flex;
+}
+
+.award_img {
+    width: 80px;
+    height: 80px;
+}
+
+.award_text {
+    padding: 7px 0 0 15px;
+}
+
+.award_text h3 {
+    padding-bottom: 8px;
+}
+
+.award_text p {
+    padding-bottom: 4px;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.01em;
-    cursor: pointer;
 }
 
-.arist_more img {
-    padding-left: 7.27px;
+.featured {
+    padding: 80px 0 170px
+}
+
+.featured_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 21px;
+}
+
+.featured h3 {
+    color: #F6F6F6;
+    padding-bottom: 48px;
+}
+
+.featured_work {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.featured_work_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_work_left {
+    width: 49%;
+}
+
+.featured_work_right {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
