@@ -10,7 +10,7 @@ body {
 
 .container {
     max-width: 1134px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -42,6 +42,10 @@ a {
     line-height: 18px;
     letter-spacing: 0.01em;
     color: #F6F6F6;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .color_red {
@@ -120,19 +124,19 @@ header {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.01em;
+    padding-bottom: 58px;
 }
 
-.header_contact_button {
+.contact_button {
     display: flex;
     color: #D8D8D9;
     border: 2px solid;
     margin: auto;
     width: 180px;
-    margin-top: 58px;
     cursor: pointer;
 }
 
-.header_contact_button p {
+.contact_button p {
     padding: 15px 12px 14px 24px;
     font-family: Raleway;
     font-style: normal;
@@ -143,7 +147,7 @@ header {
     text-transform: uppercase;
 }
 
-.header_contact_button p:nth-child(2) {
+.contact_button p:nth-child(2) {
     padding: 4px 26px 4px 0;
     font-family: Raleway;
     font-style: normal;
@@ -283,4 +287,104 @@ header {
 
 .about h2 {
     padding-bottom: 20px;
+}
+
+.inst_h2 {
+    padding: 80px 0 24px;
+}
+
+.inst_collection_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inst_collection_wrap img {
+    padding: 4px;
+}
+
+.inst_collection_images {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inst_show {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 80px;
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+    color: #F6F6F6;
+}
+
+.contact h3 {
+    padding-bottom: 20px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    padding-bottom: 80px;
+}
+
+.contact_upload {
+    display: flex;
+    padding: 5px 0 40px;
+    justify-content: space-between;
+}
+
+input, select, textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #89898B;
+    margin-bottom: 27px;
+    padding: 6px 0 9px 20px ;
+    color: #F6F6F6;
+    outline: none;
+}
+
+select, input::placeholder, textarea::placeholder {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #36353D;
+}
+
+label {
+    padding-bottom: 6px;
+}
+
+option {
+    background-color: #1f1f1f;
+    border: 1px solid #89898B;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+.contact_upload_button {
+    display: flex;
+}
+
+.contact_upload_button img {
+    padding-left: 5px;
 }
