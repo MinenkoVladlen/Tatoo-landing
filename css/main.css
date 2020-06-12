@@ -388,3 +388,82 @@ textarea {
 .contact_upload_button img {
     padding-left: 5px;
 }
+
+.contact_map {
+    background: #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contact_map_info {
+    width: 27%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.contact_map_info h3 {
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: #1D1C21;
+}
+
+.contact_map_info p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #1D1C21;
+    padding: 2px 0 10px;
+}
+
+.contact_map_info_social {
+    display: flex;
+    padding: 5.65px 0 30.67px;
+}
+
+.contact_map_info_social img {
+    padding-right: 27.25px;
+}
+
+.contact_map_googleMap {
+    width: 60%;
+}
+
+footer {
+    padding: 80px 0 0;
+}
+
+.footer_nav {
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #89898B;
+    border-top: 1px solid #89898B;
+}
+
+.footer_adress {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 7px;
+}
+
+.footer_adress p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #89898B;
+}
+
+.footer_social img {
+    padding-left: 29.94px;
+}
