@@ -21,7 +21,7 @@
             <a href="#">Featured work</a>
             <a href="#">Aftercare</a>
             <a href="#">FAQ</a>
-            <a href="#" class="color_red">Contact</a>
+            <a href="#anchor" class="anchorLink">Contact</a>
         </div>
         <div class="header_section">
             <div class="header_section_logo">
@@ -35,10 +35,12 @@
         <div class="header_contact">
             <img src="img/header_main_logo.png" alt="main_logo">
             <p>ONE STEP BEYOND TATTOOING</p>
-            <div class="contact_button">
-                <p>CONTACT US</p>
-                <p>+</p>
-            </div>
+            <a href="#anchor" class="anchorLink">
+                <div class="contact_button">
+                    <p>CONTACT US</p>
+                    <p>+</p>
+                </div>
+            </a>
         </div>
     </div>
 </header>
@@ -99,7 +101,7 @@
                 <div class="award_text">
                     <h3>AWARD WINNING</h3>
                     <p>Internationally awarded <br> artists </p>
-                    <div class="btn_more color_red">
+                    <div class="btn_more">
                         <p>read more</p>
                         <img src="img/btn-read-more.png" alt="btn_read_more">
                     </div>
@@ -110,7 +112,7 @@
                 <div class="award_text">
                     <h3>HYGIENE</h3>
                     <p>Highest hygiene standard <br> in the industry </p>
-                    <div class="btn_more color_red">
+                    <div class="btn_more">
                         <p>read more</p>
                         <img src="img/btn-read-more.png" alt="btn_read_more">
                     </div>
@@ -121,7 +123,7 @@
                 <div class="award_text">
                     <h3>DIGITAL DESIGN</h3>
                     <p>Custom Digital Designs created <br> just for you </p>
-                    <div class="btn_more color_red">
+                    <div class="btn_more">
                         <p>read more</p>
                         <img src="img/btn-read-more.png" alt="btn_read_more">
                     </div>
@@ -204,8 +206,24 @@
                     <img src="img/instagram_collect_15.png" alt="man">
                 </div>
             </div>
+            <div class="inst_collection_images_all">
+                <img src="img/instagram_collect_1.png" alt="man">
+                <img src="img/instagram_collect_2.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_3.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_4.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_5.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_6.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_7.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_8.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_9.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_10.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_11.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_12.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_13.png" alt="photo_tatoo">
+                <img src="img/instagram_collect_15.png" alt="man">
+            </div>
             <div class="inst_show">
-                <div class="btn_more color_red">
+                <div class="btn_more">
                     <p>read more</p>
                     <img src="img/btn-read-more.png" alt="btn_read_more">
                 </div>
@@ -215,7 +233,7 @@
 </section>
 <section>
     <div class="container">
-        <div class="contact">
+        <div class="contact" id="anchor">
             <h3>Contact form</h3>
             <form class="contact_form">
                 <label for="email">email</label>
@@ -230,9 +248,15 @@
                 <label for="message">message</label>
                 <textarea placeholder="Tell us about your idea" name="message"></textarea>
                 <div class="contact_upload">
-                    <div class="contact_upload_button">upload image<img src="img/contact_upload.png" alt="upload"></div>
-                    <div class="contact_upload_button">upload image<img src="img/contact_upload.png" alt="upload"></div>
-                    <div class="contact_upload_button">upload image<img src="img/contact_upload.png" alt="upload"></div>
+                    <div class="contact_upload_button">
+                        <a>upload image<img src="img/contact_upload.png" alt="upload"></a>
+                    </div>
+                    <div class="contact_upload_button">
+                        <a>upload image<img src="img/contact_upload.png" alt="upload"></a>
+                    </div>
+                    <div class="contact_upload_button">
+                        <a>upload image<img src="img/contact_upload.png" alt="upload"></a>
+                    </div>
                 </div>
                 <div class="contact_button">
                     <p>CONTACT US</p>
@@ -281,11 +305,11 @@
             <a href="#">Featured work</a>
             <a href="#">Aftercare</a>
             <a href="#">FAQ</a>
-            <a href="#" class="color_red">Contact</a>
+            <a href="#anchor" class="anchorLink">Contact</a>
         </div>
         <div class="footer_adress">
             <p>© Dream Masters Custom Tattoos Sweden, est. 2006</p>
-            <p>228 Columbus Ave, San Francisco, CA 94133  |  (415) 277-7204  |  info@dream-masters.com</p>
+            <p>228 Columbus Ave, San Francisco, CA 94133 | (415) 277-7204 | info@dream-masters.com</p>
             <div class="footer_social">
                 <img src="img/header_social_facebook.png" alt="icon_facebook">
                 <img src="img/header_social_inst.png" alt="icon_inst">
@@ -294,6 +318,7 @@
     </div>
 </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1yKGl6-HZWQQ2AiWqMfJ6_tbGJOOfga0&callback=initMap"></script>
 <script src="js/main.js"></script>
