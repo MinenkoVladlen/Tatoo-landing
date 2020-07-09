@@ -644,6 +644,10 @@ footer {
     .inst_collection_images_all img:nth-child(even) {
         display: none;
     }
+
+    .header_contact img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -673,6 +677,10 @@ footer {
 
     .contact_upload_button {
         padding: 15px;
+    }
+
+    .inst_h2 {
+        font-size: 50px;
     }
 
 }
